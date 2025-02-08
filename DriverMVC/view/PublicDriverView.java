@@ -24,7 +24,7 @@ public class PublicDriverView extends JFrame {
             driver.setLicenseStatus("ถูกระงับ");
         }
 
-        complaints = 4;  // ฟิกค่า ไม่ใช้การสุ่ม
+        complaints = 4; 
 
         statusLabel = new JLabel("สถานะ: " + driver.getLicenseStatus());
         complaintsLabel = new JLabel("จำนวนการร้องเรียน: " + complaints);
